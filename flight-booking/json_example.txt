@@ -1,0 +1,50 @@
+//add flights
+{
+    "newFlightRequestList":[{
+        "departureTime":"2021-12-12T08:34:55",
+        "arrivalTime":"2021-12-12T10:34:55",
+        "fromPort":"Delhi",
+        "toPort":"Pune",
+        "price":2500,
+        "airlineName":"GoAir",
+        "availableMeals":"both",
+        "totalCapacity":20
+    },
+    {
+        "departureTime":"2021-12-13T08:34:55",
+        "arrivalTime":"2021-12-13T10:34:55",
+        "fromPort":"Delhi",
+        "toPort":"Pune",
+        "price":2500,
+        "airlineName":"GoAir",
+        "availableMeals":"both",
+        "totalCapacity":20
+    }]
+}
+
+//flight search
+{
+    "departureDate":"2021-12-12",
+    "arrivaDate":"2021-12-15",
+    "fromPort":"Delhi",
+    "toPort":"Pune",
+    "trip":"oneway"
+}
+
+//booking
+{
+    "flightId":2,
+    "name":"T V Bhuva",
+    "emailId":"bhuvavicky10@gmail.com",
+    "mealSelection":"both",
+    "passengerDetails":[{
+        "name":"kali",
+        "age":"24",
+        "gender":"male"
+    },{
+        "name":"tavi",
+        "age":"25",
+        "gender":"female"
+    }
+    ]
+}
